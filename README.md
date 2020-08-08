@@ -1,7 +1,18 @@
 # sithSlave.github.io
 
-## This is the readme for my portfolio
+## Purpose
 
-This is what mark down looks like.
+A website to showcase my skills to employers, and organize my work.
 
-* bullet point for fun
+## Built With
+
+* HTML
+* CSS
+
+## Website
+
+https://sithSlave.github.io
+
+## Contribution
+
+made by Josh Miller
