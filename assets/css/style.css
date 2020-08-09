@@ -16,6 +16,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     z-index: 9999;
+    background-size: cover;
 }
 
 header h1 {
@@ -50,6 +51,7 @@ header h1 {
     min-height: 200px;
     width: 100%;
     background-position: 20%;
+    background-size: cover;
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -105,6 +107,70 @@ header h1 {
     margin-bottom: 10px;
 }
 
+.work-subgrid-wrapper {
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.work-subgrid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-auto-flow: row;
+}
+.work-subgrid-item {
+    margin: 15px;
+    flex-wrap: wrap;
+}
+.work-subgrid-item a{
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.work-subgrid-item img {   
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 0;
+    vertical-align: 100%;
+}
+.work-subgrid-item.main-item {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+.work-caption {
+    background: lightblue;
+    color: #3b3d40;
+    align-self: flex-end;
+    justify-content: left;
+    position: absolute;
+    padding: 5px 40px 5px 15px;
+    margin-bottom: 40px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.work-caption h3 {
+    border-bottom: 1px solid #3b3d40;
+    font-size: 22px;
+}
+.work-caption h4 {
+    font-size: 18px;
+    text-align: center;
+}
+.small-item .work-caption {
+    padding: 2px 20px 2px 7px;
+    margin-bottom: 15px;
+}
+.small-item .work-caption h3 {
+    border-bottom: 1px solid #3b3d40;
+    font-size: 16px;
+}
+.small-item .work-caption h4 {
+    font-size: 14px;
+    text-align: center;
+}
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -117,4 +183,14 @@ header h1 {
     justify-content: space-around;
     align-items: flex-end;
     margin: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .grid-wrapper {
+        width: 95%;
+    }
+    .work-subgrid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 105px auto;
+    }
 }
