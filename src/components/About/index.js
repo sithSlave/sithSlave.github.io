@@ -4,7 +4,7 @@ import './style.css';
 
 function About() {
    return (
-      <section className='d-flex justify-content-md-start flex-wrap'>
+      <section className='d-flex justify-content-md-start flex-wrap about'>
          <div id='about-head'>
             <h3>About Me</h3>
             <img src={profilePic} alt='Profile' />
