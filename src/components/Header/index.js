@@ -1,12 +1,16 @@
 import React from 'react';
-import style from './style.css'
-import 'bootstrap';
+import './style.css';
+import { Jumbotron } from 'react-bootstrap';
+import Navigation from '../Navbar'
 
-function Header() {
+function Header(props) {
    return (
-      <header>
-         <div className='username'>Josh Miller</div>
-      </header>
+      <Jumbotron className='d-flex justify-content-around justify-content-md-between flex-wrap jumbo'>
+         <div className='username d-flex'>
+            <h1 className='header m-1'>Josh Miller</h1>
+         </div>
+         <Navigation currentPage={props.currentPage} setCurrentPage={props.setCurrentPage} />
+      </Jumbotron>
    )
 };
 
