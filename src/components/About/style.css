@@ -1,0 +1,11 @@
+#about-head {
+ height: fit-content;
+ margin: 2em;
+ text-align: left !important;
+}
+
+img {
+   height: 130px;
+   border-radius: 50%;
+}
+

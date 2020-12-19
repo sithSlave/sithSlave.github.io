@@ -12,7 +12,7 @@ function ContactForm() {
     console.log(e.target.children);
     e.preventDefault();
     if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
+      setFormState({[e.target.name]: e.target.value });
       console.log('Form', formState);
     }
   };
@@ -40,15 +40,15 @@ function ContactForm() {
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder='Name:' />
+          <input type="text" name="name" defaultValue={name} onChange={handleChange} placeholder='Name:' />
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder='Email:' />
+          <input type="email" name="email" defaultValue={email} onChange={handleChange} placeholder='Email:' />
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder='Message:' />
+          <textarea name="message" rows="5" defaultValue={message} onChange={handleChange} placeholder='Message:' />
         </div>
         {errorMessage && (
           <div>

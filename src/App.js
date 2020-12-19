@@ -28,6 +28,7 @@ function App() {
     <div className="App">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div className='body'>
+        <About />
         {displaySection(currentPage)}
       </div>
       <Footer />

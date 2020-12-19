@@ -2,6 +2,13 @@ div {
    width: 100%;
 }
 
+input:focus, textarea:focus, button:focus {
+   outline:none !important;
+}
+input, textarea, button {
+   border-radius: 5px !important;
+}
+
 label {
    visibility: hidden;
    position: absolute;
@@ -13,7 +20,6 @@ input, textarea {
 }
 
 button {
-   border-radius: 5px !important;
    background-color: #9B1D20;
    color: #F3A712;
 }
@@ -21,7 +27,6 @@ button {
 button:focus {
    background-color: #77a0a9;
    color: #9B1D20;
-   outline: none !important;
    transition: all .2s;
 }
 
