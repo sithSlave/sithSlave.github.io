@@ -1,0 +1,29 @@
+.project-section {
+   text-align: Left;
+}
+
+.project {
+   box-shadow: black 4px 4px 10px;
+   width: 47%;
+}
+
+.card-title, .card-text {
+   color: #9B1D20;
+}
+
+.card-img-overlay {
+   visibility:hidden;
+   background-color: rgba(.8, .8, .8, .6);
+   text-shadow: #F3A712 1px 1px;
+}
+
+.project:hover .card-img-overlay {
+   visibility: visible;
+   transition: all 2s;
+}
+
+@media only screen and (max-width: 1000px) {
+   .project {
+      width: 85%;
+   }
+ }
