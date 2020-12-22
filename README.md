@@ -11,5 +11,12 @@
   * JavaScript
     * React.js
     * Node.js
+    
 ## Author
  Josh Miller
+ 
+## The App
+
+ [The app](https://sithslave.github.io/)
+ 
+ ![](/Portfolio.gif)
