@@ -11,9 +11,6 @@ function Navigation(props) {
          name: 'Portfolio'
       },
       {
-         name: 'Contact'
-      },
-      {
          name: 'Resume'
       }
    ];

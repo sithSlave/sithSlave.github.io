@@ -6,4 +6,9 @@ footer {
    width: 100%;
    height: 2.5rem;
    padding-bottom: 40px;
+   margin: 40px;
+}
+
+footer a {
+   margin: 0px 10px
 }
