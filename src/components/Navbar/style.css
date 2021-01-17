@@ -7,3 +7,7 @@ span {
    color: #F3A712;
    text-shadow: 4px 4px#000000;
 }
+
+.nav-link:hover {
+   cursor: pointer;
+}
