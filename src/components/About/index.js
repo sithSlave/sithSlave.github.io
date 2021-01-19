@@ -13,7 +13,7 @@ function About() {
             <article>
                <p className='text-start'>
                   <p>
-                     I am Josh, I have always been interested in computers! Ever since I was little I was fascinated with video games, and learning how computers work. I was born and Raised in Utah in a family of eight. I am the youngest.
+                     I am Josh, I have always been interested in computers! Ever since I was little I was fascinated with video games, and learning how computers work. I was born and raised in Utah in a family of eight. I am the youngest.
                   </p>
                   <p>
                      My primary reason for being in this field is due to the influence of my software developer brothers, and my love for computers. In high school, I studied Business Webpage design, HTML5, and CSS. In addition I covered more
