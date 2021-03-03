@@ -7,9 +7,17 @@ import noteTaker from './assets/note-taker.png';
 import techBlog from './assets/tech-blog.png';
 import jobFinder from './assets/job-finder.png';
 import budgetTracker from './assets/budget-tracker.png';
-import bookSearch from './assets/Book-Search.png';
+import bookSearch from './assets/book-Search.png';
+import dinoStore from './assets/dino-store.png';
 
 const projects = [
+   {
+      title: 'Dino Store',
+      source: dinoStore,
+      description: 'A Mern Stack App Ecommerce app for Dinosaur enthusiasts',
+      link: 'https://ancient-lake-97986.herokuapp.com',
+      repo: 'https://github.com/OneCrinkleyFry/dino-store'
+   },
    {
       title: 'Book Search',
       source: bookSearch,

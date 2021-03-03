@@ -12,6 +12,7 @@ function About() {
          <div>
             <article>
                <p className='text-start'>
+                  <p><span>Contact Me here:</span> <a href="mailto:talk2joshbgosh@gmail.com">talk2joshbgosh@gmail.com</a></p>
                   <p>
                      I am Josh, I have always been interested in computers! Ever since I was little I was fascinated with video games, and learning how computers work. I was born and raised in Utah in a family of eight. I am the youngest.
                   </p>
